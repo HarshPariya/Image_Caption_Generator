@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Models and Data (Large files)
+models/*.keras
+models/*.h5
+models/*.pkl
+*.keras
+*.h5
+*.pkl
+features.pkl
+dataset/
+images/
+
+# OS generated files
+.DS_Store
+Thumbs.db
